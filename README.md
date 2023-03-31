@@ -28,24 +28,26 @@ NB: This is for Mac (Windows users please see [documentation](https://auto.gluon
 
 ```
 pip3 install torch==1.13.1 torchvision==0.14.1 -f https://download.pytorch.org/whl/torch_stable.html
-pip install autogluon streamlit jupyter
+pip install autogluon 
+pip install streamlit jupyter
 ```
 
-### Tell your installation as follows:
+To have the same version in the dependencies, you can install them together by using `pip install autogluon streamlit jupyter`
+
+### Test your installation as follows:
+
 ```py
-(insuranceenv) C:\Users\djoguns\Documents\workspace_datahackerman\insurance_premium_prediction>python
-Python 3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
->>> from autogluon.tabular import TabularDataset, TabularPredictor
+On your terminal, type python. then paste `from autogluon.tabular import TabularDataset, TabularPredictor`
 ```
 
 If that works, then you have good installation for autogluon.
 
-And then for Streamlit,
+```py
+Test for Streamlit by typing `streamlit hello` on the terminal.
+```
 
-```python
-(insuranceenv) C:\Users\djoguns\Documents\workspace_datahackerman\insurance_premium_prediction>streamlit hello
-
+You will see the message below if it works>
+```
   Welcome to Streamlit. Check out our demo in your browser.
 
   Local URL: http://localhost:8501
