@@ -22,11 +22,14 @@ Activate the environment
 conda activate insuranceenv
 ```
 
-Install packages in the environment NB: This is for Windows (Mac users please see documentation or other video for more)
+Install packages in the environment 
 
-```python pip install torch==1.12.1+cpu torchvision==0.13.1+cpu torchtext==0.13.1 -f https://download.pytorch.org/whl/cpu/torch_stable.html
-pip install autogluon streamlit jupyter
+NB: This is for Mac (Windows users please see [documentation](https://auto.gluon.ai/stable/install.html) or other video for more)
+
 ```
+pip3 install torch==1.13.1 torchvision==0.14.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install autogluon streamlit jupyter
+
 
 ### Tell your installation as follows:
 ```py
@@ -58,9 +61,8 @@ This will automatically pop up on your default browser on this address - http://
 
 ## Project Structure
 
-```python
+```
 Insurance Premium
-
 |--README.md
 |--images
 |--data
