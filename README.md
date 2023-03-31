@@ -29,7 +29,7 @@ NB: This is for Mac (Windows users please see [documentation](https://auto.gluon
 ```
 pip3 install torch==1.13.1 torchvision==0.14.1 -f https://download.pytorch.org/whl/torch_stable.html
 pip install autogluon streamlit jupyter
-
+```
 
 ### Tell your installation as follows:
 ```py
