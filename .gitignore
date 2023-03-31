@@ -1,5 +1,4 @@
 # ignore models and data files
-data/
 .DS_store
 
 # Byte-compiled / optimized / DLL files
