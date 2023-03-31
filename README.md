@@ -58,6 +58,7 @@ This will automatically pop up on your default browser on this address - http://
 
 ## Project Structure
 
+```python
 Insurance Premium
 |--README.md
 |--images
@@ -66,6 +67,7 @@ Insurance Premium
 |--main.ipynb
 |--experimentation.ipynb
 |--app.py
+```
 
 ## Data Ingestion
 
